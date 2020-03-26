@@ -1,0 +1,285 @@
+/*-------- BODY --------*/
+body{
+  /* height: 100vh; */
+}
+.body-login-r {
+  background-image: url("/storage/background.jpg");
+  background-color: #2F242C;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+}
+@media (max-width: 415px) {
+  .body-login-r {
+    background-position: center;
+    background-size: cover;
+
+  }
+}
+/*-------- NAVBAR --------*/
+
+.container2 {
+  max-width: 1200px;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-film {
+  font-size: x-large;
+}
+
+.fa-bars {
+  color: #999;
+}
+
+.dropdown-divider{
+  border-color: #999;
+}
+
+
+/*-------- FOOTER --------*/
+.fa-arrow-alt-circle-up{
+  color: #999;
+  font-size: x-large;
+}
+.fa-arrow-alt-circle-up:hover{
+  color: #888;
+}
+.cont-imagen{
+  position: relative;
+}
+
+#imagen{
+  position:fixed;
+  bottom:12vh;
+  right: 2vw;
+  border-radius: 50px;
+}
+
+.footer{
+  background-color: #040201;
+  width: 100%;
+  overflow: hidden;
+  color: #999;
+  clear: both;
+  padding: 5px 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0vh;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #999;
+}
+
+.footer p {
+  margin: 10px auto;
+  text-align: center;
+  margin: 0 auto 5px;
+}
+
+.footer i{
+
+}
+
+.spanf{
+  font-weight: bold;
+}
+
+.footer i{
+  font-size: x-large;
+}
+
+.footer i:hover{
+  color: #C0C0C0;
+}
+
+
+/*-------- LOGIN --------*/
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+
+}
+
+.card {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.7);
+  backdrop-filter: saturate(100%) blur(10px);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  .card {
+    backdrop-filter: none;
+
+  }
+}
+
+.card-header{
+  text-align: center;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.4);
+}
+
+.btn-primary {
+  background-color: #999;
+  border-color: #999;
+  color: rgb(12,11,11);
+  font-size: 80%;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  width: 100%;
+}
+.btn-danger {
+  background-color: #d0211c;
+  border-color: #000;
+  color: rgb(12,11,11);
+  font-size: 80%;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  width: 100%;
+}
+.btn-primary:hover{
+  background-color: rgb(12,11,11);
+  border-color: rgb(12,11,11);
+  color: #999;
+}
+.btn-danger:hover{
+  background-color: rgb(12,11,11);
+  border-color: #999;
+  color: #999;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group input {
+  height: auto;
+}
+
+.form-group>input, .form-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+
+.form-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+
+.form-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-group input::placeholder {
+  color: transparent;
+}
+
+.form-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.form-check-label {
+  font-size: 0.90rem !important;
+  box-sizing: border-box;
+}
+
+.form-check-input {
+  margin-top: 8px;
+}
+
+
+/*-------- Titulo --------*/
+.titulosli {
+  list-style: none;
+
+}
+
+.pagination {
+  padding-left: 10px;
+
+}
+.pagination a {
+  border-color: #757474;
+  background-color: black;
+  color: #999;
+}
+.pagination span{
+  color: black !important;
+  background-color: #999 !important;
+  border-color: black !important;
+}
+
+.hrpagi {
+  border-top: 1px solid rgba(150, 150, 150, 0.4);
+}
+
+.form-inline .btn{
+  border-color: #999;
+  color: #999;
+}
+.errorli {
+   color: red;
+ }
+
+
+/*-------- ABM --------*/
+
+.form-group-select{
+  margin:
+}
