@@ -3,7 +3,7 @@ body{
   /* height: 100vh; */
 }
 .body-login-r {
-  background-image: url("/storage/background.jpg");
+  background-image: url("https://images.pexels.com/photos/758976/pexels-photo-758976.jpeg");
   background-color: #2F242C;
   background-attachment: fixed;
   background-position: center;
